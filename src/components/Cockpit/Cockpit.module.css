@@ -1,0 +1,35 @@
+.red{
+  color:red;
+}
+.bold{
+  font-weight:bold;
+}
+.teal{
+  color:teal;
+}
+.blue{
+  color:blue;
+}
+.button{
+      background-color: green;
+      color: white;
+      font: inherit;
+      border: 1px solid blue;
+      padding: 8px;
+      cursor: pointer;   
+}
+.button:hover {
+        background-color:lightgreen;
+        color: black;
+        border-radius:4px;
+        transform: translateY(-8px);
+        transition:all 0.4s;      
+      }
+
+.button.Water{
+  background-color:#0099cc;
+}
+
+.button.Water:hover{
+  background-color: #99e6ff;
+}
